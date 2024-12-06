@@ -718,7 +718,7 @@
     "string-length": "^4.0.2",
     "string-natural-compare": "^3.0.1",
     "string-width": "^4.2.3",
-    "string-width-cjs": "^4.2.3",
+    "string-width-cjs": "^4.2.2",
     "string.prototype.includes": "^2.0.0",
     "string.prototype.matchall": "^4.0.11",
     "string.prototype.repeat": "^1.0.0",

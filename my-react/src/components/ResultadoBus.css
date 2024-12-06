@@ -1,0 +1,105 @@
+/* General Container */
+.resultado-bus-container {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 20px auto;
+  margin-bottom: 90px; 
+  text-align: center;
+  font-family: 'Poppins', Arial, sans-serif; /* Tipografía moderna */
+}
+
+/* Title */
+.resultado-title {
+  font-size: 26px;
+  color: #5C4033;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Table */
+.resultado-table {
+  width: 90%; /* Más espacio horizontal */
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+/* Header cells */
+.resultado-table th {
+  padding: 15px;
+  background-color: #D8B38F; /* Color más cálido */
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Body cells */
+.resultado-table td {
+  padding: 12px;
+  background-color: #F7F5F4; /* Fondo claro */
+  font-size: 14px;
+  color: #333;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+/* Row hover effect */
+.resultado-table tr:hover {
+  background-color: #F3EDE7; /* Suave cambio en hover */
+  transition: background-color 0.3s ease;
+}
+
+/* Botones */
+.btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px 5px;
+  border-radius: 6px;
+  background-color: #B58863;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #D8B38F;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Botón específico para futuras personalizaciones */
+.reservar-btn {}
+.pedir-prestado-btn {}
+
+/* Ajustes responsivos */
+@media screen and (max-width: 768px) {
+  .resultado-bus-container {
+    padding: 15px;
+  }
+
+  .resultado-title {
+    font-size: 22px;
+  }
+
+  .resultado-table th,
+  .resultado-table td {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}

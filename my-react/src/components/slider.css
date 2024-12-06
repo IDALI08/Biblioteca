@@ -1,0 +1,151 @@
+/* Variables CSS para colores y tipografías */
+:root {
+  --color-principal: #D8B38F;
+  --color-secundario: #333;
+  --color-fondo: #f5f5f5;
+  --color-footer-bg: #a0784b;
+  --color-footer-text: #f5f7fa;
+  --color-control-bg: #fff;
+  --color-control-icon: #000;
+  --color-indicator: #000;
+  --font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: var(--font-family);
+  background-color: var(--color-fondo);
+}
+
+.welcome-text {
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  color: var(--color-secundario);
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+/* Estilos para el slider */
+.carousel-inner {
+  width: 80%; 
+  max-width: 800px; 
+  margin: 0 auto; 
+  background-color: transparent; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.carousel-item img {
+  width: 100%; 
+  height: 400px; 
+  object-fit: cover; 
+  border-radius: 8px;
+  transition: transform 0.5s ease, opacity 0.5s ease; /* Agregar transición para opacidad */
+}
+
+.carousel-item img:hover {
+  transform: scale(1.05); 
+}
+
+/* Fondo blanco para los controles del carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: var(--color-control-bg); 
+  border-radius: 50%; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: var(--color-control-icon); 
+  border-radius: 50%; 
+}
+
+.carousel-control-prev, .carousel-control-next {
+  color: var(--color-control-icon); 
+}
+
+.carousel-indicators button {
+  background-color: var(--color-indicator); 
+}
+
+/* Estilos para el texto "Sala Infantil" */
+.sala-infantil-text {
+  text-align: center; 
+  margin-top: 30px; 
+  font-size: 2.5em; 
+  font-weight: 600; 
+  color: var(--color-secundario); 
+  letter-spacing: 2px; 
+  font-family: var(--font-family); 
+  width: 100%; 
+  padding: 0; 
+  background-color: transparent; 
+  border: none; 
+}
+
+/* Para el texto de bienvenida */
+.welcome-text {
+  margin-top: 10px; 
+  padding: 0; 
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/* Ajustes para el contenedor del texto de la Sala Infantil */
+.container-sala-infantil {
+  background-color: transparent; 
+  border: none; 
+  padding: 0; 
+}
+
+/* Estilos adicionales para el texto descriptivo de la sala infantil */
+.texto-descripcion {
+  background-color: transparent; 
+  border: none;
+  padding: 0; 
+  margin: 20px 0; 
+  color: var(--color-secundario); 
+  font-family: var(--font-family); 
+  font-size: 1.2em; 
+  line-height: 1.5;
+}
+
+/* Footer */
+footer {
+  background-color: var(--color-footer-bg);
+  color: var(--color-footer-text);
+  padding: 40px 20px;
+  text-align: left;
+  line-height: 1.8;
+  width: 100%;
+  margin-top: auto;
+  box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+footer p {
+  font-size: 0.9em;
+  margin: 5px 0;
+  color: var(--color-footer-text);
+}
+
+footer .fa-icon {
+  margin-right: 8px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .sala-infantil-text {
+    font-size: 2rem;
+  }
+
+  .carousel-item img {
+    height: 250px;
+  }
+}

@@ -1,0 +1,93 @@
+.vista-libros-container {
+  padding: 20px;
+  background-color: #f3f0e6; /* Fondo suave y claro */
+  border-radius: 15px; /* Bordes más redondeados */
+  margin: 30px;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.header h2 {
+  color: #6a4e23; /* Marrón más oscuro */
+  font-family: 'Lora', serif;
+}
+
+.btn-crear-libro {
+  background-color: #c1a57b; /* Botón dorado suave */
+  color: white;
+  border: none;
+  padding: 12px 20px; /* Mayor tamaño */
+  border-radius: 6px;
+  font-family: 'Lora', serif;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 90px; /* Separación mayor con la tabla */
+  text-decoration: none;
+}
+
+.btn-crear-libro:hover {
+  background-color: #a38263; /* Hover con un tono más oscuro */
+}
+
+.table-libros {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  font-family: 'Lora', serif;
+}
+
+.table-libros th, .table-libros td {
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #d8c9a1; /* Borde suave más claro */
+}
+
+.table-libros th {
+  background-color: #c1a57b; /* Color dorado suave */
+  color: white;
+}
+
+.table-libros tr:nth-child(even) {
+  background-color: #f5efe1; /* Fondo suave para filas pares */
+}
+
+.table-libros tr:hover {
+  background-color: #e9d4a7; /* Color cálido al pasar el ratón */
+}
+
+.editar-btn {
+  background-color: #c1a57b; 
+  color: white;
+  border: none;
+  padding: 6px 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 12px;
+}
+
+.eliminar-btn {
+  background-color: #d45b5b; /* Rojo más suave */
+  color: white;
+  border: none;
+  padding: 6px 12px; 
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.editar-btn:hover {
+  background-color: #a38263;
+}
+
+.eliminar-btn:hover {
+  background-color: #ad3e3e;
+}
